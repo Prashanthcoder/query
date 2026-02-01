@@ -34,5 +34,3 @@ If the class has a `package` declaration, run it using the fully-qualified name 
 **Contributing**
 - Open an issue or submit a pull request with improvements, additional exercises, or clearer problem descriptions.
 
----
-
