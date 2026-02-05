@@ -7,7 +7,7 @@ public class Sol {
         String username = sc.nextLine();
         System.out.println("Enter the password : ");
         String password = sc.nextLine();
-        if ((username == "Prashanthcoder") && (password == "Prashi@9098")) {
+        if ((username.equals("Prashanthcoder")) && (password.equals("Prashi@9098"))) {
             System.out.println("LOGGED IN\n");
             for (int i = 0; i < 20; i++) {
                 System.out.println("_________________WELCOME TO THE PRASHANTH TECH LTD___________________________");
