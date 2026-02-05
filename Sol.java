@@ -17,9 +17,15 @@ public class Sol {
                 System.out.println("Error during delay.");
             }
             System.out.println("LOGGED IN\n");
-            for (int i = 0; i < 20; i++) {
-                System.out.println("_________________WELCOME TO THE PRASHANTH TECH LTD___________________________");
+            try {
+                for (int i = 0; i < 20; i++) {
+                    Thread.sleep(500);
+                    System.out.println("_________________WELCOME TO THE PRASHANTH TECH LTD___________________________");
+                }
+            } catch (InterruptedException e) {
+                System.out.println("Error during delay.");
             }
+
         } else {
             System.out.println("Lo eno lo tu🥹🥹");
         }
